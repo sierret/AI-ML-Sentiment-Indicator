@@ -1,5 +1,8 @@
 # AI-ML-Sentiment-Indicator
-Analyses text to determine if sentiment is positive or negative(or neutral)
+
+N.B. Pyspark version is a WIP.
+
+Analyses text to determine if sentiment is positive or negative(or neutral). The text is currently obtained from the top results of a Google Search based on an input string to be used as a search query.
 Utilizes Vader lexicon to determine text polarity score that is then used to produce a label. Text is then placed in vectors using TFIDF to function as features. Data split, and model fit and tested on split pars as per usual. Currently uses Bayes algo(Multimodal).
 
 Produces:
